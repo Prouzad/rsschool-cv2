@@ -55,6 +55,7 @@ Tenacity and Optimism.
 
 #### Education
 
+- **JavaScript/Front-end RSCHOOL**
 - **Bachelor, The Bonch-Bruevich Saint Petersburg State University of Telecommunications**
 - **Web programming, Uniform Optima**
 
@@ -63,6 +64,7 @@ Tenacity and Optimism.
 #### Languages
 
 - **English - A1**
+- **Kazakh - A2**
 - **Russian - Speaking**
 - **Uzbek - native**
 
