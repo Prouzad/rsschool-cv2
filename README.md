@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://prouzad.github.io/rsschool-cv/cv
+https://prouzad.github.io/rsschool-cv
