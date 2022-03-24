@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="about sections">
+                            <div class="about-box">
+                                <div class="text-box">
+                                    <div class="name">
+                                        <h2>Abdulla Ergashev</h2>
+                                        <p>Native programmer</p>
+                                    </div>
+                                    <div class="description">
+                                        <p>
+                                            I started my career at 16 as a trainee engineer. I started to study programming in 2014, but then I did not take it seriously. After graduation started working as an engineer for a local provider. After a recommendation from a friend, i again began to take an interest in programming and learned from him about RS School. Thanks to this, now I have a real chance to change my field of activity.
+                                        </p>
+                                    </div>
+                                    <div class="contacts">
+                                        <div class="frams">
+                                            <img src="./assets/svg/phone.png" alt="">
+                                            <a href="tel:+998998009700" title="Phone number" class="comp"> +998 99 8009700</a>
+                                        </div>
+                                        <div class="frams">
+                                            <img src="./assets/svg/email.png" alt="">
+                                            <a href="mailto:doston.ergashev.97@mail.ru" class="comp" target="_blank">doston.ergashev.97@mail.ru</a>
+                                        </div>
+                                        <div class="frams">
+                                            <img src="./assets/svg/location.png" alt="">
+                                            <a href="https://goo.gl/maps/3Wat5C6iAYuTuiYo6" target="_blank" title="Location " class="comp">Tashkent, Uzbekistan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-photo">
+                                    <img src="./assets/images/IMG_5094.PNG" alt="">
+                                </div>
+                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                    <div class="swiper-slide">
+                        <div class="skills-container sections">
+                            <div class="skills-box">
+                                <div class="skills">
+                                    <img src="./assets/svg/html.png" alt="HTML">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="skills">
+                                    <img src="./assets/svg/css.png" alt="CSS">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="skills">
+                                    <img src="./assets/svg/js.png" alt="Js">
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="skills">
+                                    <img src="./assets/svg/vscode.png" alt="Lightroom">
+                                    <p>VS Code</p>
+                                </div>
+                                <div class="skills lr">
+                                    <img src="./assets/svg/Lightroom.png" alt="Lightroom">
+                                    <p>Lightroom</p>
+                                </div>
+                                <div class="skills">
+                                    <img src="./assets/svg/ps.png" alt="Ps">
+                                    <p>Photoshop</p>
+                                </div>          
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="code sections">
+                                  
+                            <img src="https://www.codewars.com/users/Prouzad/badges/large" alt="">
+                          
+                           <div class="code-box">
+                               <div class="btn-box">
+                                <div class="btn red"></div>
+                                <div class="btn yellow"></div>
+                                <div class="btn green"></div>
+                               </div>
+                               
+                               <div class="codes">
+                                   
+
+                                <pre> 
+                <code> <span class="code-pink">function</span>  <span class="code-blue">getLengthOfMissingArray</span><span class="code-yellow">(</span><span class="code-orange">arrayOfArrays</span><span class="code-yellow">) {</span>
+                        <span class="code-pink">let</span> arr <span class="code-blue1">=</span> <span class="code-pink1">[]</span><span class="code-blue1">;</span>
+                        <span class="code-pink">if</span> <span class="code-pink1">(</span>arrayOfArrays <span class="code-blue1">==</span> <span class="code-orange">null</span> <span class="code-blue1">||</span> arrayOfArrays<span class="code-blue1">.</span>length <span class="code-blue1">==</span> <span class="code-orange">0</span><span class="code-pink1">) {</span>
+                            <span class="code-pink">return</span> <span class="code-orange">0</span><span class="code-blue1">;</span>
+                        <span class="code-pink1">}</span>
+                        <span class="code-pink">for</span> <span class="code-pink1">(</span><span class="code-pink">let</span> key <span class="code-blue1">of</span> arrayOfArrays<span class="code-pink1">) {</span>
+                                <span class="code-pink">if</span> <span class="code-blue1">(</span>key <span class="code-blue1">==</span> <span class="code-orange">null</span> <span class="code-blue1">||</span> key<span class="code-blue1">.</span>length <span class="code-blue1">==</span> <span class="code-orange">0</span><span class="code-blue1">) {</span>
+                                       <span class="code-pink">return</span>  <span class="code-orange">0</span><span class="code-blue1">;</span>
+                                <span class="code-blue1">}</span> <span class="code-pink">else</span> <span class="code-blue1">{</span>
+                                        arr<span class="code-blue1">.</span><span class="code-blue">push</span><span class="code-yellow">(</span>key<span class="code-blue1">.</span>length<span class="code-yellow">)</span><span class="code-blue1">;</span>
+                                <span class="code-blue1">}</span>
+                        <span class="code-pink1">}</span>
+                        arr<span class="code-blue1">.</span><span class="code-blue">sort</span><span class="code-pink1">(</span><span class="code-blue1">(</span><span class="code-orange">a</span><span class="code-blue1">,</span> <span class="code-orange">b</span><span class="code-blue1">)</span> <span class="code-pink">=></span> a <span class="code-blue1">-</span> b<span class="code-blue1">)</span><span>;</span>
+                        <span class="code-pink">for</span> <span class="code-pink1">(</span><span class="code-pink">let</span> i <span class="code-blue">=</span> <span class="code-orange">0</span><span class="code-blue1">;</span> i <span class="code-blue1"><</span> arr<span class="code-blue1">.</span>length<span class="code-blue1">;</span> i<span class="code-blue1">++</span> <span class="code-pink1">) {</span>
+                            <span class="code-pink">let</span> x <span class="code-blue1">=</span> arr<span class="code-blue1">[</span>i <span class="code-blue1">+</span> <span class="code-orange">1</span><span class="code-blue1">]</span> <span class="code-blue1">-</span> arr<span class="code-blue1">[</span>i<span class="code-blue1">]</span><span class="code-blue1">;</span>
+                            <span class="code-pinl"> if</span> <span class="code-blue1">(</span>x <span class="code-blue1">!=</span> <span class="code-orange">1</span><span class="code-blue1">) {</span>
+                                <span class="code-pink">return</span> arr<span class="code-yellow">[</span>i <span class="code-blue1">+</span> <span class="code-orange">1</span><span class="code-yellow">]</span> <span class="code-blue1">-</span> <span class="code-orange">1</span><span class="code-blue">;</span>
+                             <span class="code-blue">}</span>
+                        <span class="code-pink1">}</span>
+                    <span class="code-yellow">}</span>
+                   
+                </code>
+                                </pre>
+                          
+                            </div>    
+                           </div>
+                           
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="experience sections">
+                            <div class="slider-exp">
+                                <div class="slider-exp-box">
+                                    <div class="exp audio-task">
+                                       
+                                       
+                                        <div class="player">
+                                            <audio src="" class="audio"></audio>
+                                            <img src="" class="imgPlayer" alt="imgplayer" />
+                                            <div class="bar-box">
+                                               <div class="btn-box">
+                                                    <img src="./assets/svg/play.png" alt="play" class="play">
+                                                       <div class="name-box">
+                                                        <div class="name-song">
+                                                            <p>Beyonce</p> 
+                                                        </div>
+                                                        <div class="song">
+                                                           <p>Don't Hurt Yourself</p> 
+                                                        </div>
+                                                    
+                                                       </div>
+                                                    <div class="ward-btns">
+                                                        <img src="./assets/svg/backward.png" alt="backward" class="backward" >
+                                                        <img src="./assets/svg/forward.png" alt="forward" class="forward">
+                                                    </div>
+                                
+                                               </div><div class="time-line-box">
+                                                        
+                                                        <div class="time-box">
+                                                            <div class="time">
+                                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="cdTimes">
+                                                            <div class="currentTime">
+                                                                0:00
+                                                            </div>
+                                                            <div class="durationTime">
+                                                                0:00
+                                                            </div>
+                                                        </div>
+                                                        
+                                               </div> 
+                                              
+                                
+                                            </div>
+                                        </div>
+                                        <div class="description-task">
+                                            <h2>Audio player</h2>
+                                            <p>Music player that allows you to play music tracks </p>
+                                        </div>
+                                    </div>
+                                    <div class="exp images-task">
+                                        <div class="img-ex">
+                                            <div class="search-box">
+                                                <input type="search" placeholder="search" class="search" autocomplete="off" autofocus>                    
+                                            </div>
+                                            <div class="main-box">
+                
+                
+                                            </div>  
+                                           
+                                        </div>
+                                        <div class="description-task">
+                                            <h2>Image gallery</h2>
+                                            <p>Application displaying photos received from API</p>
+                                        </div>
+                                    </div>
+                                    <div class="exp memory-task">
+                                        <div class="memory-game">
+                                            <div class="memory-card"  data-framework="sniper">
+                                                <img src="./assets/images/card.png" alt="card-face" class="front">
+                                                <img src="./assets/images/Sniper.png" alt="Sniper" class="back-face">
+                                            </div>
+                                            <div class="memory-card"  data-framework="sniper">
+                                                <img src="./assets/images/card.png" alt="card-face" class="front">
+                                                <img src="./assets/images/Sniper.png" alt="Sniper" class="back-face">
+                                            </div>
+                                            <div class="memory-card" data-framework="Axe">
+                                                <img src="./assets/images/card.png" alt="card-face" class="front">
+                                                <img src="./assets/images/Axe.png" alt="axe" class="back-face">
+                                            </div>
+                                            <div class="memory-card" data-framework="Axe">
+                                                <img src="./assets/images/card.png" alt="card-face" class="front">
+                                                <img src="./assets/images/Axe.png" alt="axe" class="back-face">
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="button"></div>
+                                        <div class="description-task">
+                                            <h2>Memory game</h2>
+                                            <p>A memory game set of identical cards placed face down..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+
+   
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
