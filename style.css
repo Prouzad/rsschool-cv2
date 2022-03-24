@@ -266,7 +266,13 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 45px;
+   
     
+}
+
+.description-task a{
+    text-decoration: none;
+    color: #000;
 }
 
 
@@ -505,3 +511,45 @@ body {
 .back-face{
     transform: rotateY(180deg);
 }
+
+/* LAGNUAGES */
+
+.language{
+    display: flex;
+    flex-direction: column;
+}
+
+.lang-box{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.langs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    height: 150px;
+}
+
+.flag img{
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: transform 0.5s;
+   
+ 
+}
+
+.flag img:hover{
+    transform: scale(1.1);
+    
+
+ 
+}
+
+
+
